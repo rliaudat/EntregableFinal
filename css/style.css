@@ -96,4 +96,55 @@ header nav ul {
   text-align: center;
 }
 
+.proyectos-main div h1 {
+  text-align: center;
+}
+.proyectos-main div p {
+  position: relative;
+}
+
+main {
+  margin-top: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+main h1 {
+  font-size: 30px;
+}
+main label {
+  font-weight: bold;
+  color: black;
+}
+main div {
+  margin-top: 10px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
