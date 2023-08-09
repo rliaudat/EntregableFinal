@@ -77,4 +77,23 @@ header nav ul {
   padding: 10px;
 }
 
+.card {
+  margin-bottom: 15px;
+}
+.card .btn-primary1 {
+  background-color: green;
+  color: aliceblue;
+}
+.card .btn-primary2 {
+  background-color: hotpink;
+  color: black;
+}
+.card .btn-primary3 {
+  background-color: chocolate;
+  color: blanchedalmond;
+}
+.card .index-imagen {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
