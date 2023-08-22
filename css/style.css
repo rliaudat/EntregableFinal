@@ -53,6 +53,7 @@ header nav ul {
   margin-right: 30px;
 }
 
+
 .main-imagen {
   text-align: center;
   border-radius: 10px;
@@ -66,6 +67,19 @@ header nav ul {
   padding: 10px;
 }
 
+.fade-in-image {
+  opacity: 0; 
+  animation: fadeIn 1s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .carousel-inner {
   padding: 20px;
   width: 100%;
